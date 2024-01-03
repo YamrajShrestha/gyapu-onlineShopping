@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -34,10 +35,12 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-lg-2">
               <div className="logo">
-                <img
-                  src="https://www.gyapu.com/806b0f041fef60968c877fe5b54014cb.svg"
-                  alt=""
-                />
+                <Link to="/">
+                  <img
+                    src="https://www.gyapu.com/806b0f041fef60968c877fe5b54014cb.svg"
+                    alt=""
+                  />
+                </Link>
               </div>
             </div>
             <div className="col-lg-8">
@@ -54,16 +57,20 @@ const Header = () => {
               </form>
             </div>
             <div className="col-lg-2">
-                <ul className="d-flex gap-3">
-                    <li><a className="text-black-50" href="#">
+              <ul className="d-flex gap-3">
+                <li>
+                  <a className="text-black-50" href="#">
                     <i class="fa-regular fa-heart me-2"></i>
                     <span>Wishlist</span>
-                        </a></li>
-                    <li><a className="text-black-50" href="#">
+                  </a>
+                </li>
+                <li>
+                  <a className="text-black-50" href="#">
                     <i class="fa-solid fa-cart-shopping me-2"></i>
                     <span>Cart</span>
-                        </a></li>
-                </ul>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
