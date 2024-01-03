@@ -1,3 +1,33 @@
-body{
-    color: red;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #707b8e;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.top .fa-user {
+  color: blueviolet;
+}
+.top .fa-whatsapp {
+  color: #40c351;
+}
+.top .a-viber {
+  color: #794f9a;
+}
+.logo img {
+  width: 120px;
+}
+.thumb {
+  height: 200px;
+  object-fit: cover;
+}
+footer{
+    background-color: black;
 }
