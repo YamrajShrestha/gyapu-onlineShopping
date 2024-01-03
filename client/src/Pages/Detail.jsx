@@ -18,6 +18,7 @@ const Detail = () => {
             <p>Brand: {qq.brand}</p>
             <p>Category: {qq.category}</p>
             <p>Description: {qq.description}</p>
+            <p>Stock Available: {qq.stock}</p>
           </div>
         </div>
       </div>
